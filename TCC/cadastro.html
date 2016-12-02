@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro Usuario</title>
+		
+		<link href="css\1.css" type="text/css" rel="stylesheet"/>
+		<meta charset= utf-8>
+	</head>
+	<body>
+	
+	<p class= "a">
+<img src="imagens\cadas2.png" alt= "Login de Usuarios" title="Usuarios cadastrado." width="100" height="80"/>
+</p>
+
+		<form	 action="verifica.php" method="post">
+
+<div id= "um">
+<p class= "b">
+
+		
+					Preecha seu cadastro<br><br><br><br>
+
+				<label>Nome Completo: <br/> 
+					<input type = "text" name = "nomecompleto" size="15" maxlength="200" required ="required"/></label><br/>
+					<label>Senha: <br/> 
+					<input type = "password" name = "senha" size="15" maxlength="14" required ="required"/></label><br/>
+				<label>Email: <br/> 
+					<input type = "email" name = "email" size="15" maxlength="200" required ="required"/></label><br/>
+		
+			<input type = "reset" name = "limpar" value = "Limpar">
+			<input type = "submit" name = "envia" value = "Cadastrar">
+
+</p>
+</div>
+<br><a href="logout.php?act=logout">Sair</a>
+
+
+		</form>
+	</body>
+</html>
+
+
+
+
+

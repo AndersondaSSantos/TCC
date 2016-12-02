@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro de ADM</title>
+		
+		<link href="css\1.css" type="text/css" rel="stylesheet"/>
+		<meta charset= utf-8>
+	</head>
+	<body>
+	
+
+
+	<form	 action="verificaadm.php" method="post">
+<div id= "um">
+
+	<fieldset>
+				<legend>Preencha o seu Cadastro </legend>
+				<label>Nome Completo do Funcionário: <br/> 
+					<input type = "text" name = "nomecompleto" size="15" maxlength="200" required ="required"/></label><br/>
+					<label>Senha: <br/> 
+					<input type = "password" name = "senha" size="15" maxlength="14" required ="required"/></label><br/>
+				<label>Email Corporativo: <br/> 
+					<input type = "email" name = "email" size="15" maxlength="200" required ="required"/></label><br/>
+			</fieldset>
+			
+			</div>
+			<input type = "reset" name = "limpar" value = "Limpar">
+			<input type = "submit" name = "envia" value = "Cadastrar">
+			<input type="button" value="Voltar para fila" onClick="location.href='relatorio.php';"> 
+	
+		</form>
+	</body>
+</html>
+
+
+
+
+

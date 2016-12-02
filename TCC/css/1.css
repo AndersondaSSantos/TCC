@@ -1,0 +1,75 @@
+body{
+	width:90%;
+	margin:0 auto;
+	background-color: #C0C0C0;
+	background-image: url("Imagens\login.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;	
+	opacity:0.7;}
+	
+p.a{
+	text-align: center;
+	vertical-align: bottom;
+}
+
+p.b{
+	border: 1px solid black; 
+	padding: 10px;
+	margin: 1px;
+	text-align: center;
+	
+}
+p.c{
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#um{
+	margin-right: 20px;
+	border: 3px solid black;
+	padding: 5px;
+	box-shadow: 5px 5px 5px 5px #777777;
+	border-radius: 10px;
+	
+}
+
+#dois{
+	background-color:red;
+	color:white;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 15px solid transparent;
+	box-shadow: 5px 5px 5px 5px #992222;
+	text-align: right;
+}
+
+footer{
+
+	background-color: black;
+	color: white;
+	clear:both;
+	text-align: right;
+	padding: 5px;	
+}
+
+
+fieldset{
+	width: 1200px;
+	border: 1px solid #efefef;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+legend{
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+header{
+	
+	text-align: right;
+	padding:3px;
+}
